@@ -5,7 +5,7 @@ import { sql } from "@databases/expo";
 import { Layout, Text, Button } from "@ui-kitten/components";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { RootDrawerParamList } from "../RootDrawerParamList";
-import { db } from "../db/db";
+//import { db } from "../db/db";
 
 type MainMenuNavigationProps = DrawerNavigationProp<RootDrawerParamList, "MainMenu">;
 interface Props {
